@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  go_web:
+    image: goalpine
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/go_web
+    ports:
+      - 3030:3000
+    stdin_open: true
+    tty: true

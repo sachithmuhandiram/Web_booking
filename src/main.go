@@ -22,7 +22,7 @@ func main(){
 		if err != nil {
 			log.Println(err)
 		}
-
+		log.Println("Server started")
 		io.WriteString(conn, "\n Hello\n")
 		fmt.Fprintln(conn,"How are you?")
 		conn.Close()

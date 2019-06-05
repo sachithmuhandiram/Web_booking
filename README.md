@@ -11,8 +11,8 @@ I will try my best to use go testing tools to test the project.
 
 #### Tasks
 
-- [ ] Dockerfile for the project
-- [ ] alpine go as base image
+- [ x ] Dockerfile for the project
+- [ x ] alpine go as base image
 - [ ] Go - MySQL integration
 - [ ] Simple login page
 - [ ] User previledges
